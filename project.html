@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+
+        body {
+            padding: 5px;
+            margin: 2px;
+            font-family: Arial, sans-serif;
+        }
+    
+.toolbtn 
+{
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    z-index: 1000;
+    background-color: #ee4b4b;
+    color: rgb(2, 0, 0);
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(68, 1, 1, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+.toolbr {
+    position: fixed;
+    left: -300px; 
+    background-color: #7a0505;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    color: rgb(0, 0, 0);
+    transition: left 0.5s ease; 
+}
+h2
+{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+p 
+{
+    font-family: Arial, sans-serif;
+}
+.toolbr a 
+{
+    display: block;
+    margin-bottom: 10px; 
+}
+.toolbr a button 
+{
+    width: 100%;
+    padding: 10px 15px; 
+    font-size: 16px; 
+    margin-top: 5px; 
+    border-radius: 5px; 
+    background-color: #8a0606; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    cursor: pointer; 
+}
+.toolbr a button:hover 
+{
+    background-color: #faa798;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(228, 143, 143, 0.2);
+}
+
+.toolbr a button:active 
+{
+    background-color: #f58686;
+    transform: translateY(0);
+}
+            </style>
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button class="toolbtn" id="toolbtnn">More</button>
+
+    <div class="toolbr">
+        <p>pragraphs</p>
+        <a href="index.html">
+            <button>Home</button>
+        </a>   
+        <a href="Contact.html">
+            <button>Contacts</button>
+        </a> 
+
+        <a href="project.html">
+            <button>Projects</button>
+        </a>   
+
+    </div>
+
+    </header>
+</body>
+<script src="index.js"></script>
+</html>
