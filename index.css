@@ -1,0 +1,221 @@
+body {
+    padding: 1px;
+    margin: 2px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(94, 43, 52);
+}
+
+.navbar {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.nav-list {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+.nav-item {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #e6d5d5;
+    color: rgb(243, 243, 243);
+}
+h1{
+    color: #d3d3d3;
+    text-shadow: 2px 2px rgb(65, 65, 231);
+    font-size:40px;
+    margin: 0;
+    padding: 0;
+}
+.pogi{
+    color: #fcfcfc;
+    text-shadow: 2px 2px rgb(31, 31, 226);
+}
+
+.column {
+	width: 40%;
+	padding: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;margin-top: 10%;
+}
+.img{
+    position: absolute;
+    left: 55%;
+    bottom: 15%;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.navbar 
+{
+overflow: hidden;
+transition: 0.5s;
+}
+.nav-list 
+{
+float: right;
+display: flex;
+list-style-type: none;
+margin: 10px;
+padding: 0;
+}
+.nav-item 
+{
+margin: 10px;
+padding: 10px;
+}
+
+.nav-item a {
+color: rgb(201, 172, 75);
+text-decoration: none;
+}
+.nav-item a:hover 
+{
+background-color: #e6d5d5;
+color: rgb(230, 106, 106);
+}
+section 
+{
+padding: 20px;
+}
+table, th, td 
+{
+border: 1px solid rgb(226, 123, 123) ;
+border-collapse: collapse;
+font-size: 20px;   
+padding: 5px;
+}
+th
+{
+background-color: #333;
+color: #fff;
+}
+ul 
+{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+h2 
+{
+margin-top: 0;
+}
+form 
+{
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+label 
+{
+margin-top: 10px;
+}
+
+input[type=text], input[type=email], textarea 
+{
+width: 80%;
+padding: 12px;
+border: 2px solid #cf7c7c;
+border-radius: 10px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] 
+{
+background-color: #F9F7C9;
+color: rgb(226, 109, 109);
+padding: 12px 20px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-weight: bolder;
+}
+
+input[type=submit]:hover
+{
+background-color: #e074c9;
+transition: 01s;
+}
+.toolbtn 
+{
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    z-index: 1000;
+    background-color: #ee4b4b;
+    color: rgb(2, 0, 0);
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(68, 1, 1, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+.toolbr {
+    position: fixed;
+    left: -300px; 
+    background-color: #7a0505;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    color: rgb(0, 0, 0);
+    transition: left 0.5s ease;     
+}
+h2
+{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+p 
+{
+    font-family: Arial, sans-serif;
+}
+.toolbr a 
+{
+    display: block;
+    margin-bottom: 10px; 
+}
+.toolbr a button 
+{
+    width: 100%;
+    padding: 10px 15px; 
+    font-size: 16px; 
+    margin-top: 5px; 
+    border-radius: 5px; 
+    background-color: #8a0606; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    cursor: pointer; 
+}
+.toolbr a button:hover 
+{
+    background-color: #faa798;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(228, 143, 143, 0.2);
+}
+
+.toolbr a button:active 
+{
+    background-color: #f58686;
+    transform: translateY(0);
+}
